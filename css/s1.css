@@ -1,0 +1,338 @@
+
+body {
+    background-color:#020000;
+}
+
+p {
+    line-height: 1.4;
+    color: black;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: tahoma, sans-serif;
+    color: #531;
+    margin: .25ex 12pt;
+}
+
+h2 {
+    font-size: 130%;
+    color: #840;
+}
+
+a {
+    text-decoration: none;
+    color: #f80;
+}
+
+a:hover {
+   text-decoration:underline;
+}
+.frm {
+	background-color:white;
+	}
+
+.clear {
+    margin: 0;
+    padding: 0;
+    clear: both;
+}
+
+image.img{
+    display: block;
+    
+    border: solid 2px #555;
+    padding: 2px;
+    margin: 3px 6pt 3px 5px;
+	
+}
+
+
+
+nav#top-menu {
+    width: 100%;
+    height: 33px;
+    background-color: #0a1923;
+    margin: 0;
+    padding: 0;
+}
+
+#top-menu ul {
+    display: block;
+    list-style-type: none;
+    width: 600px;
+    margin: 0 auto;
+    padding: 0;
+}
+
+#top-menu ul li {
+    margin: 0;
+    padding: 0;
+}
+#top-menu ul li a {
+    display: block;
+    float: left;
+    max-height: 25px;
+    width: 100px;
+    margin: 0;
+    padding: 5px 0;
+    font-family: tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    background-color: #0a1923;    text-decoration: none;
+    color: #aaefe5;
+    border-bottom: #0a1923 solid 2px;
+}
+#top-menu ul li a:hover { border-bottom: #aaefe5 solid 2px; }
+
+
+
+header h1 { margin-top: 0; }
+
+header p {
+    font-family: tahoma, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 85%;
+    margin: .25ex 12pt;
+    color: #531;
+}
+
+
+
+#maindiv {
+	
+    width:990px;
+    margin: 0 auto;
+    background-color: #111F21;
+}
+
+
+
+
+article h1 {
+    font-size: 110%;
+    margin-top: 12pt;
+    margin-bottom: 0;
+    padding-top: 3pt;
+    border-top: 4px solid #a60;
+}
+
+article p {
+    font-family: tahoma, sans-serif;
+}
+
+article mark {
+    background-color: #630202;
+}
+
+/* aside */
+
+aside.about {
+    float: right;
+    width: 248px;
+    background-color: #620809;
+    margin: 3pt 6pt 3pt 6pt;
+    padding: 6pt 0;
+}
+
+aside h1 { font-size: 110%; }
+aside h2 { font-size: 95%; }
+aside p {
+    margin: 0 12pt;
+    font-family: tahoma, sans-serif;
+    font-style: italic;
+    font-size: 85%;
+}
+
+aside section h1 {
+    padding-top: 3pt;
+    border-top: 4px solid #fd0;
+}
+
+aside header p {
+    font-size: 85%;
+}
+
+aside section {
+    padding: 5px 0;
+}
+
+
+
+.form {
+	
+	color:white;
+	text-align:center;
+}
+.form form{
+	text-color:white;
+	padding:25px;
+	text-align:center;
+}
+
+
+footer {
+    background: black;
+}
+
+footer p {
+    color: #106A0C;
+    font-size: 70%;
+    font-family: tahoma, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+
+
+details summary {
+    font-family: tahoma, sans-serif;
+    font-size: 110%;
+    color: #531;
+    margin: 1ex 12pt;
+}
+
+div#media {
+    margin: 1em 0 0 1em;
+}
+
+
+
+
+input, textarea {
+    font-family: tahoma, sans-serif;
+    font-size: 1em;
+}
+
+
+
+
+
+p.message, p.error {
+    width: 766px;
+    margin: .5ex 0;
+    font: normal 1em Tahoma, sans-serif;
+    padding: 3px;
+}
+
+p.message {
+    background-color: #da1;
+    color: black;
+}
+
+/* transitions */
+
+
+@media (max-width:992px) {
+    
+    .post .profile-picture{
+        text-align: center;
+        margin-top:-40px;
+    }
+    
+    .post .post-title{
+        text-align: center;
+        border:none;
+    }
+    
+    .post .profile-picture img{
+        width:20%;
+    }
+
+}
+
+@media (max-width:786px){
+    
+    .jumbotron #details{
+        margin-top: 20px;
+    }
+    
+    .post .post-title{
+        margin-top: -30px;
+        text-align: center;
+        border: none;
+    }
+    
+    .post .profile-picture{
+        text-align: center;
+    }
+    
+    .post .profile-picture img{
+        width:20%;
+    }
+    
+    .pagination > li > a{
+        font-size: 13px;
+        padding:10px 12px;
+    }
+    
+    footer{
+        font-size: 9px;
+        letter-spacing: 0px;
+    }
+    
+    .navbar-inverse .navbar-nav > li > a{
+        text-align: center;
+    }
+    
+    .navbar-inverse .navbar-nav .open .dropdown-menu > li > a{
+        text-align: center;
+    }
+    
+    .author{
+        background: white;
+        padding: 20px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    
+    .author img{
+        width: 30%;
+    }
+
+    .author h4{
+        color:#24A7CF;
+        text-decoration: underline;
+    }
+
+    .author p{
+        font-weight: 100;
+    }
+    
+    .comment{
+        background: white;
+        padding: 20px;
+        margin-bottom: 15px;
+    }
+
+    .comment h3{
+        color:#24A7CF;
+    }
+
+    .comment img{
+        width: 30%;
+    }
+
+    .comment h4{
+        color:#24A7CF;
+    }
+
+    .comment p{
+        font-weight: 100;
+    }
+
+    .comment .single-comment{
+        margin-bottom: 10px;
+        text-align: center;
+    }
+}
+
+
+
+
+
+
+
+
+
